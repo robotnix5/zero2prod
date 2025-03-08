@@ -22,7 +22,7 @@ reqwest = "0.12"
 [dependencies.sqlx]
 version = "0.8"
 default-features = false
-feature = [
+features = [
   "runtime-tokio-rustls",
   "macros",
   "postgres",
